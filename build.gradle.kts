@@ -30,8 +30,3 @@ plugins {
 tasks.register("clean", Delete::class) {
     delete(rootProject.buildDir)
 }
-
-//Room
-//implementation("androidx.room:room-runtime:${rootProject.extra["room_version"]}")
-//ksp("androidx.room:room-compiler:${rootProject.extra["room_version"]}")
-//implementation("androidx.room:room-ktx:${rootProject.extra["room_version"]}")
